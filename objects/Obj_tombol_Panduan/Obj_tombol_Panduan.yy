@@ -1,0 +1,41 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_tombol_Panduan",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tombol_parent","path":"objects/Obj_tombol_parent/Obj_tombol_parent.yy",},"propertyId":{"name":"tombol_text","path":"objects/Obj_tombol_parent/Obj_tombol_parent.yy",},"value":"Panduan",},
+  ],
+  "parent": {
+    "name": "sistem",
+    "path": "folders/Objects/sistem.yy",
+  },
+  "parentObjectId": {
+    "name": "Obj_tombol_parent",
+    "path": "objects/Obj_tombol_parent/Obj_tombol_parent.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "Tombol",
+    "path": "sprites/Tombol/Tombol.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

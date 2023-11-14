@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 137.58694,
+  "duration": 311.912,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "bgm1.mp3",
   "type": 0,
-  "volume": 0.52,
+  "volume": 1.0,
 }

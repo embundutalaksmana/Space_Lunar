@@ -1,9 +1,18 @@
 // Di dalam event Create obj_player
 skor = 0; // Inisialisasi skor
 jumlah_lompatan = 0; // Inisialisasi jumlah lompatan
+kiri=keyboard_check(vk_left);
+kanan=keyboard_check(vk_right);
+ngibrit= 6;
 /////////////////////////////////////////////////////////////////
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-move_x *= move_speed;
+jalan =  kanan - kiri;
+
+if (keyboard_check(vk_shift)) {
+    move_x = move_speed * jalan * ngibrit;
+} else {
+    move_x = jalan * move_speed;
+}
+
 if (move_x != 0 && waktu_terakhir_sfx <= 0) {
     sprite_index = Alex_jalan; // Ganti sprite pemain dengan sprite berjalan
     audio_play_sound(walk, 1, false); // Mainkan sfx bergerak
@@ -13,6 +22,7 @@ if (move_x != 0 && waktu_terakhir_sfx <= 0) {
 } else {
     sprite_index = Alex_diam; // Ganti sprite pemain dengan sprite diam jika pemain tidak bergerak
 }
+
 /////////////////////////////////////////////////////////////
 if (place_meeting(x, y+2, Obj_permukaan))
 {
@@ -94,4 +104,12 @@ if (place_meeting(x, y, Obj_cadas)) {
     
     // Pindah ke ruangan lain
     room_goto(GameWin);
+}
+
+
+
+if (keyboard_check(vk_shift)) {
+    show_debug_message("Shift key is pressed");
+} else {
+    show_debug_message("Shift key is not pressed");
 }
