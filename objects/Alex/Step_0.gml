@@ -48,6 +48,9 @@ if (place_meeting(x, y, Obj_cadas)) {
 	global.pec1=0;
 	global.pec2=0;
 	global.pec3=0;
+	global.s1 = 0; 
+	global.s2 = 0;
+	global.s3 = 0;
     // Pindah ke ruangan lain
     room_goto(GameOver);
 }else if (place_meeting(x, y, Obj_Rock)) {
@@ -56,6 +59,9 @@ if (place_meeting(x, y, Obj_cadas)) {
 	global.pec1=0;
 	global.pec2=0;
 	global.pec3=0;
+	global.s1 = 0; 
+	global.s2 = 0;
+	global.s3 = 0;
     // Pindah ke ruangan lain
     room_goto(GameOver);
 }else if (place_meeting(x, y, Obj_rover)) {
@@ -64,6 +70,9 @@ if (place_meeting(x, y, Obj_cadas)) {
 	global.pec1=0;
 	global.pec2=0;
 	global.pec3=0;
+	global.s1 = 0; 
+	global.s2 = 0;
+	global.s3 = 0;
     // Pindah ke ruangan lain
     room_goto(GameOver);
 }else if (place_meeting(x, y, Obj_Jurang)) {
@@ -72,6 +81,9 @@ if (place_meeting(x, y, Obj_cadas)) {
 	global.pec1=0;
 	global.pec2=0;
 	global.pec3=0;
+	global.s1 = 0; 
+	global.s2 = 0;
+	global.s3 = 0;
     // Pindah ke ruangan lain
     room_goto(GameOver);
 }else if (place_meeting(x, y, Obj_portal)) {

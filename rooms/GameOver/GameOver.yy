@@ -6,11 +6,24 @@
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
-  "instanceCreationOrder": [],
+  "instanceCreationOrder": [
+    {"name":"inst_1BE2B618","path":"rooms/GameOver/GameOver.yy",},
+    {"name":"inst_1DAAC318","path":"rooms/GameOver/GameOver.yy",},
+  ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294901760,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_6383B62E","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.7150838,"scaleY":1.4383562,"spriteId":{"name":"_87618cf3113b4c6c1a7d733a852e61e0","path":"sprites/_87618cf3113b4c6c1a7d733a852e61e0/_87618cf3113b4c6c1a7d733a852e61e0.yy",},"x":704.0,"y":352.0,},
+      ],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BE2B618","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_bgm_LOSE","path":"objects/Obj_bgm_LOSE/Obj_bgm_LOSE.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1DAAC318","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_tombol_Keluar","path":"objects/Obj_tombol_Keluar/Obj_tombol_Keluar.yy",},"properties":[],"rotation":0.0,"scaleX":8.0,"scaleY":4.5,"x":672.0,"y":544.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4280690431,"depth":200,"effectEnabled":true,"effectType":"_filter_whitenoise","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
+        {"name":"g_WhiteNoiseIntensity","type":0,"value":"0.5",},
+        {"name":"g_WhiteNoiseAnimation","type":0,"value":"0",},
+        {"name":"g_WhiteNoiseTexture","type":2,"value":"_filter_whitenoise_noise",},
+      ],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",

@@ -6,11 +6,20 @@
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
-  "instanceCreationOrder": [],
+  "instanceCreationOrder": [
+    {"name":"inst_612C58EA","path":"rooms/GameWin/GameWin.yy",},
+    {"name":"inst_61B7C0B2","path":"rooms/GameWin/GameWin.yy",},
+  ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_73D41924","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.5458422,"scaleY":1.8951049,"spriteId":{"name":"_7340e2050bfd167a018e2e52818aeee5__1_","path":"sprites/_7340e2050bfd167a018e2e52818aeee5__1_/_7340e2050bfd167a018e2e52818aeee5__1_.yy",},"x":352.0,"y":192.0,},
+      ],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_612C58EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_bgm_WIN","path":"objects/Obj_bgm_WIN/Obj_bgm_WIN.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61B7C0B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_tombol_Keluar","path":"objects/Obj_tombol_Keluar/Obj_tombol_Keluar.yy",},"properties":[],"rotation":0.0,"scaleX":8.0,"scaleY":4.5,"x":672.0,"y":544.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4287192576,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",
